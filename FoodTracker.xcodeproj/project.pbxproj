@@ -12,6 +12,7 @@
 		B28D0D581EA0B2A900083607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28D0D561EA0B2A900083607 /* Main.storyboard */; };
 		B28D0D5A1EA0B2A900083607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28D0D591EA0B2A900083607 /* Assets.xcassets */; };
 		B28D0D5D1EA0B2A900083607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28D0D5B1EA0B2A900083607 /* LaunchScreen.storyboard */; };
+		B28D0D651EA0C52A00083607 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D0D641EA0C52A00083607 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B28D0D591EA0B2A900083607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28D0D5C1EA0B2A900083607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B28D0D5E1EA0B2A900083607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28D0D641EA0C52A00083607 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B28D0D521EA0B2A900083607 /* AppDelegate.swift */,
 				B28D0D541EA0B2A900083607 /* ViewController.swift */,
+				B28D0D641EA0C52A00083607 /* RatingControl.swift */,
 				B28D0D561EA0B2A900083607 /* Main.storyboard */,
 				B28D0D591EA0B2A900083607 /* Assets.xcassets */,
 				B28D0D5B1EA0B2A900083607 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B28D0D551EA0B2A900083607 /* ViewController.swift in Sources */,
+				B28D0D651EA0C52A00083607 /* RatingControl.swift in Sources */,
 				B28D0D531EA0B2A900083607 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
