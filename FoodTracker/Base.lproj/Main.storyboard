@@ -40,10 +40,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcK-OW-V7N">
                                         <rect key="frame" x="0.0" y="66.5" width="151" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="phr-5h-YS4"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="F8X-7n-P4u" secondAttribute="trailing" id="eV4-dz-WN7"/>
+                                    <constraint firstAttribute="trailing" secondItem="qbq-wz-VtY" secondAttribute="trailing" constant="256.5" id="y87-td-xDy"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -54,6 +58,10 @@
                             <constraint firstItem="ERe-gd-tUG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OZc-Xc-Oa2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="qbq-wz-VtY" id="NHw-tO-bB7"/>
+                        <outlet property="nameTextField" destination="F8X-7n-P4u" id="Uss-RZ-yX1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
